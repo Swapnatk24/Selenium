@@ -1,0 +1,28 @@
+<suite name="crossBrowser-Testing" parallel="tests" thread-count="2">
+	<test thread-count="5" name="chromeTest">
+		<parameter name="browser" value="Chrome"></parameter>
+		<listeners>
+		<listener class-name="listeners.Listeners"></listener>
+		<listener class-name="listeners.RetryListener"></listener>
+	</listeners>
+		<classes>
+			<class name="testscripts.ManageContactTest">
+				<methods>
+					<include
+						name="verifyUserIsAbleToEditContactDetails"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test thread-count="5" name="edge-test">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="testscripts.LoginTest">
+				<methods>
+					<include
+						name="verifyUserLoginWithValidCredentials"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
