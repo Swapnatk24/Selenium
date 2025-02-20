@@ -4,13 +4,35 @@
   <parameter name="browser" value="Chrome"/>
   <test thread-count="5" name="myTest(failed)">
     <classes>
-      <class name="testscripts.ManageNewsTest">
+      <class name="testscripts.SubCategoryTest">
         <methods>
-          <include name="verifyAdminUserCanAddNews"/>
+          <include name="initializeBrowser"/>
+          <include name="driverQuit"/>
+          <include name="verifyAddNewSubcategorywithValidDetails"/>
+          <include name="verifySubCategoryIsDeleted"/>
+        </methods>
+      </class> <!-- testscripts.SubCategoryTest -->
+      <class name="testscripts.ManageFooterTest">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="driverQuit"/>
+          <include name="verifyUserCanUpdateAdminFooterDetails"/>
+        </methods>
+      </class> <!-- testscripts.ManageFooterTest -->
+      <class name="testscripts.AdminUser_ManageProductTest">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="driverQuit"/>
+          <include name="verifyAdminUserCanManageAndDeleteProduct"/>
+        </methods>
+      </class> <!-- testscripts.AdminUser_ManageProductTest -->
+      <class name="testscripts.LoginTest">
+        <methods>
+          <include name="verifyUserLoginWithValidCredentials"/>
           <include name="initializeBrowser"/>
           <include name="driverQuit"/>
         </methods>
-      </class> <!-- testscripts.ManageNewsTest -->
+      </class> <!-- testscripts.LoginTest -->
     </classes>
   </test> <!-- myTest(failed) -->
 </suite> <!-- Failed suite [myTestSuite] -->

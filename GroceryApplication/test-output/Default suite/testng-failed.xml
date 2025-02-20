@@ -7,7 +7,7 @@
         <methods>
           <include name="initializeBrowser"/>
           <include name="driverQuit"/>
-          <include name="verifyAdminUserCanAddNewUsers"/>
+          <include name="verifyAdminUserCanChangeTheStatus"/>
         </methods>
       </class> <!-- testscripts.AdminUserTest -->
     </classes>

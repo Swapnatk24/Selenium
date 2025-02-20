@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-19T12:19:49 IST" name="myTestSuite" finished-at="2025-02-19T12:20:18 IST" duration-ms="29330">
+  <suite started-at="2025-02-19T21:55:07 IST" name="myTestSuite" finished-at="2025-02-19T21:56:32 IST" duration-ms="84685">
     <groups>
+      <group name="smoke">
+        <method signature="SubCategoryTest.verifyAddNewSubcategorywithValidDetails()[pri:0, instance:testscripts.SubCategoryTest@662ac478]" name="verifyAddNewSubcategorywithValidDetails" class="testscripts.SubCategoryTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-02-19T12:19:49 IST" name="myTest" finished-at="2025-02-19T12:20:18 IST" duration-ms="29330">
+    <test started-at="2025-02-19T21:55:07 IST" name="myTest" finished-at="2025-02-19T21:56:32 IST" duration-ms="84685">
       <class name="testscripts.ManageNewsTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.ManageNewsTest@17f7cd29]" started-at="2025-02-19T12:19:55 IST" name="initializeBrowser" finished-at="2025-02-19T12:19:57 IST" duration-ms="2404" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.ManageNewsTest@477b4cdf]" started-at="2025-02-19T21:55:42 IST" name="initializeBrowser" finished-at="2025-02-19T21:55:45 IST" duration-ms="2258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,22 +21,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyAdminUserCanAddNews()[pri:0, instance:testscripts.ManageNewsTest@17f7cd29]" started-at="2025-02-19T12:19:57 IST" name="verifyAdminUserCanAddNews" finished-at="2025-02-19T12:20:00 IST" duration-ms="2970" status="PASS">
+        <test-method signature="verifyAdminUserCanAddNews()[pri:0, instance:testscripts.ManageNewsTest@477b4cdf]" started-at="2025-02-19T21:55:45 IST" name="verifyAdminUserCanAddNews" finished-at="2025-02-19T21:55:47 IST" duration-ms="2124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminUserCanAddNews -->
-        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageNewsTest@17f7cd29]" started-at="2025-02-19T12:20:00 IST" name="driverQuit" finished-at="2025-02-19T12:20:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageNewsTest@477b4cdf]" started-at="2025-02-19T21:55:47 IST" name="driverQuit" finished-at="2025-02-19T21:55:47 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAdminUserCanAddNews status=SUCCESS method=ManageNewsTest.verifyAdminUserCanAddNews()[pri:0, instance:testscripts.ManageNewsTest@17f7cd29] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAdminUserCanAddNews status=SUCCESS method=ManageNewsTest.verifyAdminUserCanAddNews()[pri:0, instance:testscripts.ManageNewsTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.ManageNewsTest@17f7cd29]" started-at="2025-02-19T12:20:00 IST" name="initializeBrowser" finished-at="2025-02-19T12:20:03 IST" duration-ms="3276" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.ManageNewsTest@477b4cdf]" started-at="2025-02-19T21:55:47 IST" name="initializeBrowser" finished-at="2025-02-19T21:55:49 IST" duration-ms="2006" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,22 +47,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyAdminUserCanDeleteNews()[pri:0, instance:testscripts.ManageNewsTest@17f7cd29]" started-at="2025-02-19T12:20:03 IST" name="verifyAdminUserCanDeleteNews" finished-at="2025-02-19T12:20:12 IST" duration-ms="8736" status="PASS">
+        <test-method signature="verifyAdminUserCanDeleteNews()[pri:0, instance:testscripts.ManageNewsTest@477b4cdf]" started-at="2025-02-19T21:55:49 IST" name="verifyAdminUserCanDeleteNews" finished-at="2025-02-19T21:55:56 IST" duration-ms="7170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminUserCanDeleteNews -->
-        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageNewsTest@17f7cd29]" started-at="2025-02-19T12:20:12 IST" name="driverQuit" finished-at="2025-02-19T12:20:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageNewsTest@477b4cdf]" started-at="2025-02-19T21:55:56 IST" name="driverQuit" finished-at="2025-02-19T21:55:56 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAdminUserCanDeleteNews status=SUCCESS method=ManageNewsTest.verifyAdminUserCanDeleteNews()[pri:0, instance:testscripts.ManageNewsTest@17f7cd29] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAdminUserCanDeleteNews status=SUCCESS method=ManageNewsTest.verifyAdminUserCanDeleteNews()[pri:0, instance:testscripts.ManageNewsTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.ManageNewsTest@17f7cd29]" started-at="2025-02-19T12:20:12 IST" name="initializeBrowser" finished-at="2025-02-19T12:20:15 IST" duration-ms="2894" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.ManageNewsTest@477b4cdf]" started-at="2025-02-19T21:55:56 IST" name="initializeBrowser" finished-at="2025-02-19T21:55:58 IST" duration-ms="2565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,15 +73,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyAdminUserCanManageAndEditNews()[pri:0, instance:testscripts.ManageNewsTest@17f7cd29]" started-at="2025-02-19T12:20:15 IST" name="verifyAdminUserCanManageAndEditNews" finished-at="2025-02-19T12:20:18 IST" duration-ms="2996" status="PASS">
+        <test-method signature="verifyAdminUserCanManageAndEditNews()[pri:0, instance:testscripts.ManageNewsTest@477b4cdf]" started-at="2025-02-19T21:55:58 IST" name="verifyAdminUserCanManageAndEditNews" finished-at="2025-02-19T21:56:01 IST" duration-ms="2687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdminUserCanManageAndEditNews -->
-        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageNewsTest@17f7cd29]" started-at="2025-02-19T12:20:18 IST" name="driverQuit" finished-at="2025-02-19T12:20:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageNewsTest@477b4cdf]" started-at="2025-02-19T21:56:01 IST" name="driverQuit" finished-at="2025-02-19T21:56:01 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAdminUserCanManageAndEditNews status=SUCCESS method=ManageNewsTest.verifyAdminUserCanManageAndEditNews()[pri:0, instance:testscripts.ManageNewsTest@17f7cd29] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAdminUserCanManageAndEditNews status=SUCCESS method=ManageNewsTest.verifyAdminUserCanManageAndEditNews()[pri:0, instance:testscripts.ManageNewsTest@477b4cdf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -86,8 +89,8 @@
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- testscripts.ManageNewsTest -->
-      <class name="testscripts.LoginTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.LoginTest@65e98b1c]" started-at="2025-02-19T12:19:49 IST" name="initializeBrowser" finished-at="2025-02-19T12:19:52 IST" duration-ms="3418" status="PASS">
+      <class name="testscripts.ManageFooterTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.ManageFooterTest@3eb25e1a]" started-at="2025-02-19T21:55:37 IST" name="initializeBrowser" finished-at="2025-02-19T21:55:40 IST" duration-ms="2380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,15 +101,97 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyUserLoginWithValidCredentials()[pri:0, instance:testscripts.LoginTest@65e98b1c]" started-at="2025-02-19T12:19:52 IST" name="verifyUserLoginWithValidCredentials" finished-at="2025-02-19T12:19:55 IST" duration-ms="2547" status="PASS">
+        <test-method signature="verifyUserCanUpdateAdminFooterDetails()[pri:0, instance:testscripts.ManageFooterTest@3eb25e1a]" started-at="2025-02-19T21:55:40 IST" name="verifyUserCanUpdateAdminFooterDetails" finished-at="2025-02-19T21:55:42 IST" duration-ms="2799" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserLoginWithValidCredentials -->
-        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@65e98b1c]" started-at="2025-02-19T12:19:55 IST" name="driverQuit" finished-at="2025-02-19T12:19:55 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- verifyUserCanUpdateAdminFooterDetails -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageFooterTest@3eb25e1a]" started-at="2025-02-19T21:55:42 IST" name="driverQuit" finished-at="2025-02-19T21:55:42 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyUserLoginWithValidCredentials()[pri:0, instance:testscripts.LoginTest@65e98b1c] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUserCanUpdateAdminFooterDetails status=SUCCESS method=ManageFooterTest.verifyUserCanUpdateAdminFooterDetails()[pri:0, instance:testscripts.ManageFooterTest@3eb25e1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.ManageFooterTest -->
+      <class name="testscripts.CategoryTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.CategoryTest@77c2494c]" started-at="2025-02-19T21:56:01 IST" name="initializeBrowser" finished-at="2025-02-19T21:56:03 IST" duration-ms="1829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUserCanChangeStatus()[pri:0, instance:testscripts.CategoryTest@77c2494c]" started-at="2025-02-19T21:56:03 IST" name="verifyUserCanChangeStatus" finished-at="2025-02-19T21:56:04 IST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanChangeStatus -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.CategoryTest@77c2494c]" started-at="2025-02-19T21:56:04 IST" name="driverQuit" finished-at="2025-02-19T21:56:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanChangeStatus status=SUCCESS method=CategoryTest.verifyUserCanChangeStatus()[pri:0, instance:testscripts.CategoryTest@77c2494c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.CategoryTest@77c2494c]" started-at="2025-02-19T21:56:04 IST" name="initializeBrowser" finished-at="2025-02-19T21:56:06 IST" duration-ms="2177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUserCanDeleteCategory()[pri:0, instance:testscripts.CategoryTest@77c2494c]" started-at="2025-02-19T21:56:06 IST" name="verifyUserCanDeleteCategory" finished-at="2025-02-19T21:56:14 IST" duration-ms="7177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanDeleteCategory -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.CategoryTest@77c2494c]" started-at="2025-02-19T21:56:14 IST" name="driverQuit" finished-at="2025-02-19T21:56:14 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanDeleteCategory status=SUCCESS method=CategoryTest.verifyUserCanDeleteCategory()[pri:0, instance:testscripts.CategoryTest@77c2494c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.CategoryTest -->
+      <class name="testscripts.LoginTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.LoginTest@1d296da]" started-at="2025-02-19T21:55:07 IST" name="initializeBrowser" finished-at="2025-02-19T21:55:11 IST" duration-ms="3426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUserLoginWithValidCredentials()[pri:0, instance:testscripts.LoginTest@1d296da]" started-at="2025-02-19T21:55:11 IST" name="verifyUserLoginWithValidCredentials" finished-at="2025-02-19T21:55:13 IST" duration-ms="2333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithValidCredentials -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@1d296da]" started-at="2025-02-19T21:55:13 IST" name="driverQuit" finished-at="2025-02-19T21:55:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyUserLoginWithValidCredentials()[pri:0, instance:testscripts.LoginTest@1d296da] output={null}]]]>
               </value>
             </param>
           </params>
@@ -114,6 +199,168 @@
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- testscripts.LoginTest -->
+      <class name="testscripts.AdminUserTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.AdminUserTest@f5958c9]" started-at="2025-02-19T21:56:14 IST" name="initializeBrowser" finished-at="2025-02-19T21:56:17 IST" duration-ms="2944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyAdminUserCanAddNewUsers()[pri:0, instance:testscripts.AdminUserTest@f5958c9]" started-at="2025-02-19T21:56:17 IST" name="verifyAdminUserCanAddNewUsers" finished-at="2025-02-19T21:56:19 IST" duration-ms="2297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserCanAddNewUsers -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.AdminUserTest@f5958c9]" started-at="2025-02-19T21:56:19 IST" name="driverQuit" finished-at="2025-02-19T21:56:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUserCanAddNewUsers status=SUCCESS method=AdminUserTest.verifyAdminUserCanAddNewUsers()[pri:0, instance:testscripts.AdminUserTest@f5958c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.AdminUserTest@f5958c9]" started-at="2025-02-19T21:56:19 IST" name="initializeBrowser" finished-at="2025-02-19T21:56:21 IST" duration-ms="2217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyAdminUserCanDeleteUsers()[pri:0, instance:testscripts.AdminUserTest@f5958c9]" started-at="2025-02-19T21:56:21 IST" name="verifyAdminUserCanDeleteUsers" finished-at="2025-02-19T21:56:28 IST" duration-ms="6599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserCanDeleteUsers -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.AdminUserTest@f5958c9]" started-at="2025-02-19T21:56:28 IST" name="driverQuit" finished-at="2025-02-19T21:56:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUserCanDeleteUsers status=SUCCESS method=AdminUserTest.verifyAdminUserCanDeleteUsers()[pri:0, instance:testscripts.AdminUserTest@f5958c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.AdminUserTest@f5958c9]" started-at="2025-02-19T21:56:28 IST" name="initializeBrowser" finished-at="2025-02-19T21:56:31 IST" duration-ms="2889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyAdminUserCanChangeTheStatus()[pri:1, instance:testscripts.AdminUserTest@f5958c9]" started-at="2025-02-19T21:56:31 IST" name="verifyAdminUserCanChangeTheStatus" finished-at="2025-02-19T21:56:32 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserCanChangeTheStatus -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.AdminUserTest@f5958c9]" started-at="2025-02-19T21:56:32 IST" name="driverQuit" finished-at="2025-02-19T21:56:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUserCanChangeTheStatus status=SUCCESS method=AdminUserTest.verifyAdminUserCanChangeTheStatus()[pri:1, instance:testscripts.AdminUserTest@f5958c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.AdminUserTest -->
+      <class name="testscripts.SubCategoryTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.SubCategoryTest@662ac478]" started-at="2025-02-19T21:55:13 IST" name="initializeBrowser" finished-at="2025-02-19T21:55:15 IST" duration-ms="2104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyAddNewSubcategorywithValidDetails()[pri:0, instance:testscripts.SubCategoryTest@662ac478]" started-at="2025-02-19T21:55:15 IST" name="verifyAddNewSubcategorywithValidDetails" finished-at="2025-02-19T21:55:18 IST" duration-ms="2964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewSubcategorywithValidDetails -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.SubCategoryTest@662ac478]" started-at="2025-02-19T21:55:18 IST" name="driverQuit" finished-at="2025-02-19T21:55:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddNewSubcategorywithValidDetails status=SUCCESS method=SubCategoryTest.verifyAddNewSubcategorywithValidDetails()[pri:0, instance:testscripts.SubCategoryTest@662ac478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.SubCategoryTest@662ac478]" started-at="2025-02-19T21:55:18 IST" name="initializeBrowser" finished-at="2025-02-19T21:55:20 IST" duration-ms="2274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifySubCategoryIsDeleted()[pri:0, instance:testscripts.SubCategoryTest@662ac478]" started-at="2025-02-19T21:55:20 IST" name="verifySubCategoryIsDeleted" finished-at="2025-02-19T21:55:27 IST" duration-ms="6809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryIsDeleted -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.SubCategoryTest@662ac478]" started-at="2025-02-19T21:55:27 IST" name="driverQuit" finished-at="2025-02-19T21:55:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySubCategoryIsDeleted status=SUCCESS method=SubCategoryTest.verifySubCategoryIsDeleted()[pri:0, instance:testscripts.SubCategoryTest@662ac478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.SubCategoryTest -->
+      <class name="testscripts.AdminUser_ManageProductTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscripts.AdminUser_ManageProductTest@6743e411]" started-at="2025-02-19T21:55:27 IST" name="initializeBrowser" finished-at="2025-02-19T21:55:30 IST" duration-ms="2548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyAdminUserCanManageAndDeleteProduct()[pri:0, instance:testscripts.AdminUser_ManageProductTest@6743e411]" started-at="2025-02-19T21:55:30 IST" name="verifyAdminUserCanManageAndDeleteProduct" finished-at="2025-02-19T21:55:37 IST" duration-ms="7376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserCanManageAndDeleteProduct -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.AdminUser_ManageProductTest@6743e411]" started-at="2025-02-19T21:55:37 IST" name="driverQuit" finished-at="2025-02-19T21:55:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUserCanManageAndDeleteProduct status=SUCCESS method=AdminUser_ManageProductTest.verifyAdminUserCanManageAndDeleteProduct()[pri:0, instance:testscripts.AdminUser_ManageProductTest@6743e411] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.AdminUser_ManageProductTest -->
     </test> <!-- myTest -->
   </suite> <!-- myTestSuite -->
 </testng-results>

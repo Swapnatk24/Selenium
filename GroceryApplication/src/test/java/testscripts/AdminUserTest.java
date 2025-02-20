@@ -26,7 +26,7 @@ public class AdminUserTest extends BaseClass {
 		Assert.assertTrue(isAlertPresent, Constants.us_verifyAdminUserCanAddNewUsers);
 	}
 
-	@Test
+	@Test(priority=1)
 	public void verifyAdminUserCanChangeTheStatus() throws IOException {
 		login = new LoginPage(driver);
 		home = login.loginUsingExcelData();
