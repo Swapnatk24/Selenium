@@ -33,7 +33,8 @@ public class ExcelUtility {
 		sh = w.getSheet(sheet);
 		XSSFRow r = sh.getRow(row);
 		XSSFCell c = r.getCell(col);
-		return c.getStringCellValue();
+		int val =(int) c.getNumericCellValue(); //convert double to int using typecasting.
+		return String.valueOf(val); //convert int to string using valueof() method.
 
 	}
 }
