@@ -10,7 +10,6 @@ import constants.Constants;
 import pages.AdminUser_ManageProductPage;
 import pages.HomePage;
 import pages.LoginPage;
-import pages.SubCategoryPage;
 
 public class AdminUser_ManageProductTest extends BaseClass {
 
@@ -21,7 +20,7 @@ public class AdminUser_ManageProductTest extends BaseClass {
 
 	@Test
 	public void verifyAdminUserCanManageAndDeleteProduct() throws IOException, AWTException, InterruptedException {
-		// Initialize page objects
+		// Initialise page objects
 		login = new LoginPage(driver);
 		home = login.loginUsingExcelData();
 		adminuserManageProduct = home.clickOnDeleteProduct().deleteManageProduct();
