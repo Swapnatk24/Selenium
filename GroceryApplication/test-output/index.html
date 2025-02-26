@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-crossBrowser_Testing" class="navigator-link">
-              <span class="suite-name border-skipped">crossBrowser-Testing</span>
+              <span class="suite-name border-passed">crossBrowser-Testing</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,  2 skipped,  3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-crossBrowser_Testing" class="hide-methods skipped suite-crossBrowser_Testing"> (hide)</a> <!-- hide-methods skipped suite-crossBrowser_Testing -->
-                      <a href="#" panel-name="suite-crossBrowser_Testing" class="show-methods skipped suite-crossBrowser_Testing"> (show)</a> <!-- show-methods skipped suite-crossBrowser_Testing -->
-                    </span>
-                    <div class="method-list-content skipped suite-crossBrowser_Testing">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-crossBrowser_Testing" title="testscripts.ManageContactTest" class="method navigator-link" hash-for-method="verifyUserIsAbleToEditContactDetails">verifyUserIsAbleToEditContactDetails</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-crossBrowser_Testing" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyUserLoginWithValidCredentials">verifyUserLoginWithValidCredentials</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-crossBrowser_Testing -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -147,85 +128,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-crossBrowser_Testing" class="panel crossBrowser_Testing">
-          <div class="suite-crossBrowser_Testing-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testscripts.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyUserLoginWithValidCredentials">
-                  </a> <!-- verifyUserLoginWithValidCredentials -->
-                  <span class="method-name">verifyUserLoginWithValidCredentials</span>
-                  <div class="stack-trace">org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
-	at org.apache.poi.openxml4j.opc.ZipPackage.getPartsImpl(ZipPackage.java:295)
-	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:781)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:354)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:315)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
-	at utilities.ExcelUtility.readStringData(ExcelUtility.java:22)
-	at pages.LoginPage.loginUsingExcelData(LoginPage.java:44)
-	at testscripts.LoginTest.verifyUserLoginWithValidCredentials(LoginTest.java:61)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-crossBrowser_Testing-class-skipped -->
-          <div class="suite-crossBrowser_Testing-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testscripts.ManageContactTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyUserIsAbleToEditContactDetails">
-                  </a> <!-- verifyUserIsAbleToEditContactDetails -->
-                  <span class="method-name">verifyUserIsAbleToEditContactDetails</span>
-                  <div class="stack-trace">java.io.IOException: Stream Closed
-	at java.base/java.io.FileInputStream.available0(Native Method)
-	at java.base/java.io.FileInputStream.available(FileInputStream.java:415)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
-	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:132)
-	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:182)
-	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
-	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.fill(ZipArchiveInputStream.java:539)
-	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readFromInflater(ZipArchiveInputStream.java:1072)
-	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readDeflated(ZipArchiveInputStream.java:996)
-	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.read(ZipArchiveInputStream.java:927)
-	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:132)
-	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.read(ZipArchiveThresholdInputStream.java:78)
-	at org.apache.poi.util.IOUtils.toByteArray(IOUtils.java:245)
-	at org.apache.poi.util.IOUtils.toByteArray(IOUtils.java:208)
-	at org.apache.poi.openxml4j.util.ZipArchiveFakeEntry.&lt;init&gt;(ZipArchiveFakeEntry.java:83)
-	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:98)
-	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:157)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:315)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
-	at utilities.ExcelUtility.readStringData(ExcelUtility.java:22)
-	at pages.LoginPage.loginUsingExcelData(LoginPage.java:44)
-	at testscripts.ManageContactTest.verifyUserIsAbleToEditContactDetails(ManageContactTest.java:25)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 17 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-crossBrowser_Testing-class-skipped -->
           <div class="suite-crossBrowser_Testing-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -280,7 +182,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;crossBrowser-Testing&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;crossBrowser-Testing&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;listeners.Listeners&quot;/&gt;
     &lt;listener class-name=&quot;listeners.RetryListener&quot;/&gt;
@@ -358,27 +260,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyUserIsAbleToEditContactDetails')
 data.setCell(0, 2, 'testscripts.ManageContactTest')
-data.setCell(0, 3, 4833);
+data.setCell(0, 3, 8416);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyAdminUserCanAddNews')
 data.setCell(1, 2, 'testscripts.ManageNewsTest')
-data.setCell(1, 3, 1517);
+data.setCell(1, 3, 2364);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyUserLoginWithValidCredentials')
 data.setCell(2, 2, 'testscripts.LoginTest')
-data.setCell(2, 3, 850);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyUserIsAbleToEditContactDetails')
-data.setCell(3, 2, 'testscripts.ManageContactTest')
-data.setCell(3, 3, 270);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyUserLoginWithValidCredentials')
-data.setCell(4, 2, 'testscripts.LoginTest')
-data.setCell(4, 3, 207);
+data.setCell(2, 3, 1360);
 window.suiteTableData['crossBrowser_Testing']= { tableData: data, tableDiv: 'times-div-crossBrowser_Testing'}
 return data;
 }
@@ -439,80 +333,50 @@ return data;
               <div class="chronological-class-name">testscripts.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Edge)</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testscripts.ManageContactTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyUserIsAbleToEditContactDetails</span>
-                <span class="method-start">3078 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testscripts.LoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyUserLoginWithValidCredentials</span>
-                <span class="method-start">3108 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithValidCredentials status=SKIP method=LoginTest.verifyUserLoginWit...)</span>
-                <span class="method-start">3325 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeBrowser(Edge)</span>
-                <span class="method-start">3327 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testscripts.ManageContactTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">driverQuit([TestResult name=verifyUserIsAbleToEditContactDetails status=SKIP method=ManageContactTest.verifyUse...)</span>
-                <span class="method-start">3350 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeBrowser(Chrome)</span>
-                <span class="method-start">3351 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyUserIsAbleToEditContactDetails</span>
-                <span class="method-start">5490 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testscripts.LoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyUserLoginWithValidCredentials</span>
-                <span class="method-start">7854 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyUserLogin...)</span>
-                <span class="method-start">8706 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testscripts.ManageNewsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Firefox)</span>
-                <span class="method-start">9129 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testscripts.ManageContactTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUserIsAbleToEditContactDetails</span>
+                <span class="method-start">2314 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUserLoginWithValidCredentials</span>
+                <span class="method-start">4725 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">driverQuit([TestResult name=verifyUserIsAbleToEditContactDetails status=SUCCESS method=ManageContactTest.verify...)</span>
-                <span class="method-start">10331 ms</span>
+                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyUserLogin...)</span>
+                <span class="method-start">6092 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testscripts.ManageNewsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyAdminUserCanAddNews</span>
-                <span class="method-start">14080 ms</span>
+                <span class="method-start">7294 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">driverQuit([TestResult name=verifyAdminUserCanAddNews status=SUCCESS method=ManageNewsTest.verifyAdminUserCanAd...)</span>
-                <span class="method-start">15610 ms</span>
+                <span class="method-start">9667 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.ManageContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUserIsAbleToEditContactDetails status=SUCCESS method=ManageContactTest.verify...)</span>
+                <span class="method-start">10732 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
