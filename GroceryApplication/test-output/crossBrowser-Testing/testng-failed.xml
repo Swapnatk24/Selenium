@@ -5,6 +5,18 @@
     <listener class-name="listeners.Listeners"/>
     <listener class-name="listeners.RetryListener"/>
   </listeners>
+  <test thread-count="2" parallel="tests" name="edge-test(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="testscripts.LoginTest">
+        <methods>
+          <include name="verifyUserLoginWithValidCredentials"/>
+          <include name="initializeBrowser"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testscripts.LoginTest -->
+    </classes>
+  </test> <!-- edge-test(failed) -->
   <test thread-count="2" parallel="tests" name="chromeTest(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>

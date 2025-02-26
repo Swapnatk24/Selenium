@@ -8,23 +8,65 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">myTestSuite</th></tr>
-<tr><td><a href="#t0">myTest</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">84,685</td><td></td><td></td></tr>
+<tr><th colspan="8">crossBrowser-Testing</th></tr>
+<tr><td><a href="#t0">edge-test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">8,771</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">chromeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">10,392</td><td></td><td></td></tr>
+<tr><td><a href="#t2">firefox-test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">6,481</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num attn">2</th><th class="num">0</th><th class="num">25,644</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">myTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">myTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testscripts.AdminUserTest</td><td><a href="#m0">verifyAdminUserCanAddNewUsers</a></td><td rowspan="1">1739982377121</td><td rowspan="1">2297</td></tr><tr class="passedeven"><td><a href="#m1">verifyAdminUserCanChangeTheStatus</a></td><td rowspan="1">1739982391130</td><td rowspan="1">1277</td></tr><tr class="passedeven"><td><a href="#m2">verifyAdminUserCanDeleteUsers</a></td><td rowspan="1">1739982381637</td><td rowspan="1">6599</td></tr><tr class="passedodd"><td rowspan="1">testscripts.AdminUser_ManageProductTest</td><td><a href="#m3">verifyAdminUserCanManageAndDeleteProduct</a></td><td rowspan="1">1739982330288</td><td rowspan="1">7376</td></tr><tr class="passedeven"><td rowspan="2">testscripts.CategoryTest</td><td><a href="#m4">verifyUserCanChangeStatus</a></td><td rowspan="1">1739982363497</td><td rowspan="1">1312</td></tr><tr class="passedeven"><td><a href="#m5">verifyUserCanDeleteCategory</a></td><td rowspan="1">1739982366989</td><td rowspan="1">7177</td></tr><tr class="passedodd"><td rowspan="1">testscripts.LoginTest</td><td><a href="#m6">verifyUserLoginWithValidCredentials</a></td><td rowspan="1">1739982311228</td><td rowspan="1">2333</td></tr><tr class="passedeven"><td rowspan="1">testscripts.ManageFooterTest</td><td><a href="#m7">verifyUserCanUpdateAdminFooterDetails</a></td><td rowspan="1">1739982340049</td><td rowspan="1">2799</td></tr><tr class="passedodd"><td rowspan="3">testscripts.ManageNewsTest</td><td><a href="#m8">verifyAdminUserCanAddNews</a></td><td rowspan="1">1739982345108</td><td rowspan="1">2124</td></tr><tr class="passedodd"><td><a href="#m9">verifyAdminUserCanDeleteNews</a></td><td rowspan="1">1739982349240</td><td rowspan="1">7170</td></tr><tr class="passedodd"><td><a href="#m10">verifyAdminUserCanManageAndEditNews</a></td><td rowspan="1">1739982358979</td><td rowspan="1">2687</td></tr><tr class="passedeven"><td rowspan="2">testscripts.SubCategoryTest</td><td><a href="#m11">verifyAddNewSubcategorywithValidDetails</a></td><td rowspan="1">1739982315678</td><td rowspan="1">2964</td></tr><tr class="passedeven"><td><a href="#m12">verifySubCategoryIsDeleted</a></td><td rowspan="1">1739982320924</td><td rowspan="1">6809</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">crossBrowser-Testing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">edge-test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">testscripts.LoginTest</td><td><a href="#m0">verifyUserLoginWithValidCredentials</a></td><td rowspan="1">1740581814835</td><td rowspan="1">207</td></tr><tr><th colspan="4">edge-test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testscripts.LoginTest</td><td><a href="#m1">verifyUserLoginWithValidCredentials</a></td><td rowspan="1">1740581819581</td><td rowspan="1">850</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">chromeTest &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">testscripts.ManageContactTest</td><td><a href="#m2">verifyUserIsAbleToEditContactDetails</a></td><td rowspan="1">1740581814805</td><td rowspan="1">270</td></tr><tr><th colspan="4">chromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testscripts.ManageContactTest</td><td><a href="#m3">verifyUserIsAbleToEditContactDetails</a></td><td rowspan="1">1740581817217</td><td rowspan="1">4833</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">firefox-test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testscripts.ManageNewsTest</td><td><a href="#m4">verifyAdminUserCanAddNews</a></td><td rowspan="1">1740581825807</td><td rowspan="1">1517</td></tr></tbody>
 </table>
-<h2>myTest</h2><h3 id="m0">testscripts.AdminUserTest#verifyAdminUserCanAddNewUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testscripts.AdminUserTest#verifyAdminUserCanChangeTheStatus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testscripts.AdminUserTest#verifyAdminUserCanDeleteUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testscripts.AdminUser_ManageProductTest#verifyAdminUserCanManageAndDeleteProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testscripts.CategoryTest#verifyUserCanChangeStatus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testscripts.CategoryTest#verifyUserCanDeleteCategory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testscripts.LoginTest#verifyUserLoginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testscripts.ManageFooterTest#verifyUserCanUpdateAdminFooterDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">testscripts.ManageNewsTest#verifyAdminUserCanAddNews</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">testscripts.ManageNewsTest#verifyAdminUserCanDeleteNews</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">testscripts.ManageNewsTest#verifyAdminUserCanManageAndEditNews</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">testscripts.SubCategoryTest#verifyAddNewSubcategorywithValidDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">testscripts.SubCategoryTest#verifySubCategoryIsDeleted</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>edge-test</h2><h3 id="m0">testscripts.LoginTest#verifyUserLoginWithValidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+	at org.apache.poi.openxml4j.opc.ZipPackage.getPartsImpl(ZipPackage.java:295)
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:781)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:354)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:315)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
+	at utilities.ExcelUtility.readStringData(ExcelUtility.java:22)
+	at pages.LoginPage.loginUsingExcelData(LoginPage.java:44)
+	at testscripts.LoginTest.verifyUserLoginWithValidCredentials(LoginTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testscripts.LoginTest#verifyUserLoginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>chromeTest</h2><h3 id="m2">testscripts.ManageContactTest#verifyUserIsAbleToEditContactDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Stream Closed
+	at java.base/java.io.FileInputStream.available0(Native Method)
+	at java.base/java.io.FileInputStream.available(FileInputStream.java:415)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:132)
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:182)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.fill(ZipArchiveInputStream.java:539)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readFromInflater(ZipArchiveInputStream.java:1072)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readDeflated(ZipArchiveInputStream.java:996)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.read(ZipArchiveInputStream.java:927)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:132)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.read(ZipArchiveThresholdInputStream.java:78)
+	at org.apache.poi.util.IOUtils.toByteArray(IOUtils.java:245)
+	at org.apache.poi.util.IOUtils.toByteArray(IOUtils.java:208)
+	at org.apache.poi.openxml4j.util.ZipArchiveFakeEntry.&lt;init&gt;(ZipArchiveFakeEntry.java:83)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:98)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:157)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:315)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:289)
+	at utilities.ExcelUtility.readStringData(ExcelUtility.java:22)
+	at pages.LoginPage.loginUsingExcelData(LoginPage.java:44)
+	at testscripts.ManageContactTest.verifyUserIsAbleToEditContactDetails(ManageContactTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testscripts.ManageContactTest#verifyUserIsAbleToEditContactDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>firefox-test</h2><h3 id="m4">testscripts.ManageNewsTest#verifyAdminUserCanAddNews</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
