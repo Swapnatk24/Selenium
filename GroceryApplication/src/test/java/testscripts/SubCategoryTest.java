@@ -22,10 +22,10 @@ public class SubCategoryTest extends BaseClass {
 
 		login = new LoginPage(driver);
 		home = login.loginUsingExcelData();
-		subCategoryPage = home.clickOnSubCategory().clickOnNewSubCategoryButton().clickOnCategoryDropDown().enterSubCategoryField().
-				clickOnChooseFileButton().clickOnSaveButton();
+		subCategoryPage = home.clickOnSubCategory().clickOnNewSubCategoryButton().clickOnCategoryDropDown()
+				.enterSubCategoryField().clickOnChooseFileButton().clickOnSaveButton();
 		boolean isalertPresent = subCategoryPage.isAlertDisplayed();
-		Assert.assertTrue(isalertPresent,Constants.sc_verifyAddNewSubcategorywithValidDetails);
+		Assert.assertTrue(isalertPresent, Constants.sc_verifyAddNewSubcategorywithValidDetails);
 	}
 
 	@Test
@@ -33,9 +33,9 @@ public class SubCategoryTest extends BaseClass {
 
 		login = new LoginPage(driver);
 		home = login.loginUsingExcelData();
-		subCategoryPage=home.clickOnSubCategory().deleteSubCategory();
+		subCategoryPage = home.clickOnSubCategory().deleteSubCategory();
 		boolean isalertPresent = subCategoryPage.isAlertDisplayed();
-		Assert.assertTrue(isalertPresent,Constants.sc_verifySubCategoryIsDeleted);
+		Assert.assertTrue(isalertPresent, Constants.sc_verifySubCategoryIsDeleted);
 
 	}
 }

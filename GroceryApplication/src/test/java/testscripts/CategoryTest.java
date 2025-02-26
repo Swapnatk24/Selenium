@@ -15,21 +15,22 @@ public class CategoryTest extends BaseClass {
 	LoginPage login;
 	HomePage home;
 	CategoryPage categoryPage;
+
 	@Test
 	public void verifyUserCanChangeStatus() throws IOException {
 		login = new LoginPage(driver);
 		home = login.loginUsingExcelData();
-		categoryPage=home.clickOnCategoryMenu().clickOnActiveStatusIcon();
-		boolean isAlertPresent =categoryPage.isAlertDisplayed();
-		Assert.assertTrue(isAlertPresent,Constants.ct_verifyUserCanChangeStatus);
+		categoryPage = home.clickOnCategoryMenu().clickOnActiveStatusIcon();
+		boolean isAlertPresent = categoryPage.isAlertDisplayed();
+		Assert.assertTrue(isAlertPresent, Constants.ct_verifyUserCanChangeStatus);
 	}
-	
+
 	@Test
 	public void verifyUserCanDeleteCategory() throws IOException, InterruptedException {
 		login = new LoginPage(driver);
 		home = login.loginUsingExcelData();
-		categoryPage=home.clickOnCategoryMenu().clickOndeleteCategoryIcon();
-		boolean isAlertPresent =categoryPage.isAlertDisplayed();
-		Assert.assertTrue(isAlertPresent,Constants.ct_verifyUserCanDeleteCategory);
+		categoryPage = home.clickOnCategoryMenu().clickOndeleteCategoryIcon();
+		boolean isAlertPresent = categoryPage.isAlertDisplayed();
+		Assert.assertTrue(isAlertPresent, Constants.ct_verifyUserCanDeleteCategory);
 	}
 }

@@ -24,11 +24,10 @@ public class ManageContactTest extends BaseClass {
 		login = new LoginPage(driver);
 		home = login.loginUsingExcelData();
 		manageContact = home.clickOnManageContact();
-		// manageContact.clickOnManageContactIcon();
 		manageContact.enterContactDetailsToUpdate();
 
 		boolean isalertPresent = manageContact.isAlertDisplayed();
-		Assert.assertTrue(isalertPresent,Constants.mc_verifyUserIsAbleToEditContactDetails);
+		Assert.assertTrue(isalertPresent, Constants.mc_verifyUserIsAbleToEditContactDetails);
 	}
 
 }

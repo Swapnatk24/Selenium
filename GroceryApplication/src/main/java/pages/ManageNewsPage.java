@@ -41,7 +41,6 @@ public class ManageNewsPage {
 	}
 
 	public ManageNewsPage clickOnSaveButton() {
-		//savebutton.click();
 		pageutility.clickJavaScriptExecutor(savebutton, driver);
 		return this;
 	}
@@ -58,24 +57,21 @@ public class ManageNewsPage {
 		newsTF.clear();
 		newsTF.sendKeys("Welcome! Your First Purchase Comes with a 25% Discount!");
 		waitutility.waitUntilElementisClickable(driver, updatebutton);
-		// pageutility.actions(updatebutton, driver);
 		updatebutton.click();
 		return this;
 	}
 
 	public ManageNewsPage clickOnManageNewsDeleteIcon() throws InterruptedException {
 
-		//waitutility.waitUntilElementisClickable(driver, deleteIcon);
-		//pageutility.clickJavaScriptExecutor(deleteIcon, driver);
-		//deleteIcon.click();
 		pageutility.actions(deleteIcon, driver);
 		waitutility.waitUntilElementisClickable(driver, deleteIcon);
 		pageutility.clickJavaScriptExecutor(deleteIcon, driver);
 		Thread.sleep(5000);
 		pageutility.alerthandling(deleteIcon, driver);
 		return this;
-		
+
 	}
+
 	public boolean isAlertDisplayed() {
 
 		return alertmessage.isDisplayed();

@@ -37,7 +37,6 @@ public class AdminUserPage {
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement alertmessage;
 
-
 	public AdminUserPage clickOnStatusIcon() {
 		lockicon.click();
 		return this;
@@ -45,12 +44,10 @@ public class AdminUserPage {
 
 	public AdminUserPage clickOnNewButton() {
 		pageutility.clickJavaScriptExecutor(newbutton, driver);
-		// newbutton.click();
 		return this;
 	}
 
 	public AdminUserPage enterAdminUserInformations() {
-		// pageutility.clickJavaScriptExecutor(newbutton, driver);
 		String username = fakerutility.generateFullName();
 		usernameTF.sendKeys(username);
 		String password = fakerutility.generatePassword();
@@ -61,7 +58,6 @@ public class AdminUserPage {
 	}
 
 	public AdminUserPage clickOnSaveButton() {
-		//savebutton.click();
 		pageutility.clickJavaScriptExecutor(savebutton, driver);
 		return this;
 	}
@@ -74,8 +70,7 @@ public class AdminUserPage {
 		pageutility.alerthandling(deleteicon, driver);
 		return this;
 	}
-	
-	
+
 	public boolean isAlertDisplayed() {
 
 		return alertmessage.isDisplayed();

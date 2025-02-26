@@ -24,7 +24,7 @@ public class AdminUser_ManageProductTest extends BaseClass {
 		// Initialize page objects
 		login = new LoginPage(driver);
 		home = login.loginUsingExcelData();
-		adminuserManageProduct=home.clickOnDeleteProduct().deleteManageProduct();	
+		adminuserManageProduct = home.clickOnDeleteProduct().deleteManageProduct();
 		boolean isAlertPresent = adminuserManageProduct.isAlertDisplayed(); // Verify alert is displayed
 		Assert.assertTrue(isAlertPresent, Constants.mp_verifyAdminUser_ManageProductIsDeleted);
 	}

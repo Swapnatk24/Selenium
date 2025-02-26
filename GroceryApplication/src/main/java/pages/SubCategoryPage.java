@@ -57,7 +57,6 @@ public class SubCategoryPage {
 	}
 
 	public SubCategoryPage clickOnChooseFileButton() {
-		// choosefilebutton.click();
 		pageutility.clickJavaScriptExecutor(choosefilebutton, driver);
 		fileuploadutility.fileuploadusingSendkeys(choosefilebutton, Constants.TEST_DATA_IMAGE);
 		return this;
@@ -65,7 +64,6 @@ public class SubCategoryPage {
 
 	public SubCategoryPage clickOnSaveButton() {
 		pageutility.clickJavaScriptExecutor(savebutton, driver);
-		//savebutton.click();
 		return this;
 	}
 
