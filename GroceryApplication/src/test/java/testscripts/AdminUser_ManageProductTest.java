@@ -13,7 +13,6 @@ import pages.LoginPage;
 
 public class AdminUser_ManageProductTest extends BaseClass {
 
-	// public WebDriver driver;
 	LoginPage login;
 	HomePage home;
 	AdminUser_ManageProductPage adminuserManageProduct;
