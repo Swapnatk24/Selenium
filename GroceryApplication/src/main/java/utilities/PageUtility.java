@@ -65,7 +65,6 @@ public class PageUtility {
 
 		Actions action = new Actions(driver);
 		action.moveToElement(element).perform();
-		//action.sendKeys(Keys.ARROW_DOWN).perform();
 
 	}
 
