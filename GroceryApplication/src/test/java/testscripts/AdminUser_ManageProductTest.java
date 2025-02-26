@@ -17,7 +17,6 @@ public class AdminUser_ManageProductTest extends BaseClass {
 	// public WebDriver driver;
 	LoginPage login;
 	HomePage home;
-	SubCategoryPage sc;
 	AdminUser_ManageProductPage adminuserManageProduct;
 
 	@Test

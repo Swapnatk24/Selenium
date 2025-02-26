@@ -52,7 +52,7 @@ public class BaseClass {
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
 		waitutility.implicitWait(driver);
-		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
 	}
 
 	@AfterMethod(alwaysRun = true)
@@ -60,7 +60,7 @@ public class BaseClass {
 		if (itestresult.getStatus() == ITestResult.FAILURE) {
 			ScreenshotUtility screenshot = new ScreenshotUtility();
 			screenshot.captureFailureScreenShot(driver, itestresult.getName());
-			;
+			
 		}
 		// driver.quit();
 	}

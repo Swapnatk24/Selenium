@@ -1,6 +1,6 @@
 package pages;
 
-import java.time.Duration;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,7 +15,7 @@ public class HomePage {
 	PageUtility pageutility = new PageUtility();
 
 	public HomePage(WebDriver driver) { // cons
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
 		this.driver = driver;
 		PageFactory.initElements(driver, this);// initElements=initialise all web elements
 	}

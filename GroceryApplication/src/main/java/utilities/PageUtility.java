@@ -91,27 +91,11 @@ public class PageUtility {
 		alert.accept();
 	}
 
-	// Handle an alert (dismiss it)
-	public void dismissAlert(WebDriver driver) {
-		Alert alert = driver.switchTo().alert();
-		alert.dismiss();
-	}
-
-	// Get the text of an alert
-	public String getAlertText(WebDriver driver) {
-		Alert alert = driver.switchTo().alert();
-		return alert.getText();
-	}
 
 	// Send text to a text input field
 	public void sendTextToElement(WebElement element, String text) {
 		element.clear();
-		element.sendKeys(text);
-	}
-
-	// Get text of an element
-	public String getTextFromElement(WebElement element) {
-		return element.getText();
+		
 	}
 
 	// Select a value from a dropdown by visible text
@@ -149,16 +133,6 @@ public class PageUtility {
 		return element.isEnabled();
 	}
 
-	// Get the current URL of the page
-	public String getCurrentURL(WebDriver driver) {
-		return driver.getCurrentUrl();
-	}
-
-	// Click on a given element using Actions class
-	public void clickUsingActions(WebDriver driver, WebElement element) {
-		Actions actions = new Actions(driver);
-		actions.click(element).perform();
-	}
 
 	// Select a checkbox
 	public void selectCheckbox(WebElement checkbox) {

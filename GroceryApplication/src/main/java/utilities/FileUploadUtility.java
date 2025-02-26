@@ -15,7 +15,7 @@ public class FileUploadUtility {
 
 	}
 
-	public void fileuploadiusingRobotkey(WebElement element, String filePath) throws AWTException {
+	public void fileuploadiusingRobotclass(WebElement element, String filePath) throws AWTException {
 		element.click();
 
 		StringSelection ss = new StringSelection(filePath);

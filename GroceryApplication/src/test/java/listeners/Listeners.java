@@ -18,7 +18,7 @@ public class Listeners extends BaseClass implements ITestListener {
 	ExtentReports extent = ExtentReportUtility.createExtentReports();
 	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
 
-	public void onTestStart(ITestResult result) {
+	public void onTestStart(ITestResult result) {//calls when test method starts
 
 		ITestListener.super.onTestStart(result);
 		test = extent.createTest(result.getMethod().getMethodName());
@@ -31,7 +31,7 @@ public class Listeners extends BaseClass implements ITestListener {
 		extentTest.get().log(Status.PASS, "Test Passed");
 	}
 
-	public void onTestFailure(ITestResult result) {
+	public void onTestFailure(ITestResult result) {//calls when test method fails
 
 		ITestListener.super.onTestFailure(result);
 		extentTest.get().log(Status.FAIL, "Test Failed");
